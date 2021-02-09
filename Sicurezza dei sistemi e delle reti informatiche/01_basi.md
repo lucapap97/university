@@ -29,12 +29,14 @@ come progettare e modellare una rete (quasi)immune agli attacchi
 
 Questa triade (anche detta triade CIA) è definita da uno standard (sia da NIST FIPS 199 sia da RFC 4949). Altri standard famosi: ITU-T X.800
 
+----------------
 ## Cause principali dei problemi di sicurezza
 - elevata complessità dei sistemi, numero crescente di componenti
 - competitività: poco tempo a disposizione, alto ritorno di investimento (ROI)
 - elevato numero di dispositivi: un bug ha un'ampa risonanza nel mondo, e l'elevato numero di dispositivi può essere sfruttato per creare una botnet / warm (canale di diffusione)
 - la correzione o la segnalazione dei bug è molto lenta e molto spesso nascosta
 - errori umani
+
 
 ## Standard
 Anche nella sicurezza informatica sono stati definiti degli standard che riguardano l'amministrazione e l'architettura di una rete con i suoi meccanismi di sicurezza. Tra i diversi enti che si occupano di questi standard troviamo:
@@ -52,6 +54,8 @@ RFC (Requests for Comments).
 organizzazione internazionale a cui fanno parte governi e settori privati. Si occupano di coordinare le reti di telecomunicazioni globali e i servizi. ITU-T è solamente 1 dei 3 settori che compongono la ITU, ed essi si occupano di standardizzazione di tutto ciò che copre la telecomunicazione.
 - **ISO (Internetional Organization for Standardizations)**
 federazione di standard nazionali.
+
+----
 
 ## Modelli di attacco
 1. **attacco al canale di comunicazione**
@@ -115,6 +119,7 @@ Ci sono quattro classi di minacce:
 	- Disruption - **Interruzione**: interruzione eo prevenzione del corretto funzionamento.
 	- Usurpation - **Usurpazione**: controllo non autorizzato di una partte di un sistema.
 
+------------------------
 
 - **SUPERFICIE DI ATTACCO**
 è la parte raggiungibile di un sistema, il "punto di contatto" per vulnerabilità sfruttabili dall'attaccante. Esistono varie superfici di attacco:
