@@ -106,6 +106,16 @@ Confidentiality | Encipherment, Routing Control
 Data Integrity | Encipherment, Digital Signature, Checksum
 Availability | Checksum, Authentication exchange
 
+
+- **MINACCE**
+Non è necessario che si verifichi una violazione perchè possa esserci una minaccia. Le azioni che potrebbero la violazione sono chiamate **attacchi**.
+Ci sono quattro classi di minacce:
+	-	Disclosure - **divulgazione** : accesso non autorizzato alle informazioni
+	- Deception - **Inganno** : accettazione di dati falsi
+	- Disruption - **Interruzione**: interruzione eo prevenzione del corretto funzionamento.
+	- Usurpation - **Usurpazione**: controllo non autorizzato di una partte di un sistema.
+
+
 - **SUPERFICIE DI ATTACCO**
 è la parte raggiungibile di un sistema, il "punto di contatto" per vulnerabilità sfruttabili dall'attaccante. Esistono varie superfici di attacco:
 	- porte aperte, codice in ascolto su queste porte e porte di un determinato servizio web
